@@ -1,0 +1,269 @@
+body {
+  /*background-color: #2f5770;*/
+  background-image: url('../img/layout/dps-bg.jpg');
+}
+
+.divMainBody {
+  height: 100%;
+  max-width: 1000px;
+  min-width: 320px;
+  /*background-color: black;*/
+  margin: auto;
+}
+
+.divTopHead {
+  max-width: 100%;
+  min-width: 320px;
+  height: 50px;
+}
+
+.btn-top-head {
+  border-radius: 0px;
+  min-height: 33px;
+  /*width: 97px;*/
+  margin-top: 10px;
+  background-image: none;
+  background-color: #f0ad4e;
+  margin-right: 10px;
+  color: #000;
+}
+
+.glyp-margin {
+  margin-right: 5px;
+}
+
+.btn-top-head {
+  background-color: none;
+}
+
+.divMidHead {
+  max-width: 100%;
+  min-height: 150px;
+  background-image: url('../img/layout/headerbackground-shadow.png');
+  background-position: bottom;
+  background-repeat: repeat-x;
+  margin-top: -40px;
+  /*box-shadow:0px 67px 40px 17px #0d1f2d;*/
+}
+
+.mainLogo {
+  margin: auto;
+  padding: 8px;
+  max-width: 140px;
+  min-height: 140px;
+}
+
+h1,h3,h4 {
+  font-family: 'Engravers MT';
+}
+
+.divBottomHead {
+  margin-top: -5px;
+  max-width: 100%;
+}
+
+.imgCampusBanner {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  border: 6px solid #fff;
+  /*box-shadow: 0px 40px 60px 16px #000;*/
+}
+
+/*fucking navbar css starts here*/
+
+.divNavBarContainer {
+  z-index: 10;
+  margin-top: -10px;
+  position: relative;
+  box-shadow: 0px 10px 25px 5px #000;
+}
+
+.fuckingNavbarContainer {
+  background-color:#e6a133;
+}
+
+.navbar-default {
+  background-color: transparent; !important
+  z-index: 10000000;
+}
+
+.navbar-toggle:before {
+    content:"AL DHAFRA PRIVATE SCHOOL";
+    position:absolute;
+    font-size: 21px;
+    line-height: 18px;
+    top:0px;
+    left:-353px;
+    color:#000;
+}
+
+#custom-bootstrap-menu.navbar-default {
+    font-size: 18px;
+    font-family: 'Engravers MT';
+    /*background-color: #e6a133;*/
+    border-width: 0px;
+    border-radius: 0px;
+    background-image: none;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav>li  {
+  border-right:2px solid #fff;
+  text-align: center;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li:last-child  {
+  border:none;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: #000;
+    background-color: rgba(230, 161, 51, 1);
+
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: #000;
+    background-color: rgba(245, 206, 144, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: #000;
+    background-color: rgba(245, 206, 144, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #fff;
+    border-width: 2px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #e6a133;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #fff;
+}
+
+ul.dropdown-menu {
+  text-align: center;
+  border-radius: 0px;
+  background-color: #d2973b;
+}
+
+ul.dropdown-menu > li {
+  text-align: center;
+  border-radius: 0px;
+  background-color: #d2973b;
+}
+
+
+/*fucking navbar css ENDS here*/
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #f3c886;
+  }
+}/*fucking navbar css ends here*/
+
+/*main content page*/
+.divMainContentBody {
+  width:100%;
+  /*padding-top:20px;*/
+  min-height: 200px;
+  z-index: -1;
+  margin-top:-20px;
+  position: relative;
+  /*background-color: #0c1c28;*/
+}
+#dps_carousel {
+  background-color: #0c1c28;
+}
+/*end main content page*/
+/*home page css */
+.divMsgPrincipal {
+  background-color: #fff;
+  color:#000;
+  min-height: 300px;
+}
+
+.hrForBox1 {
+  border-width: 5px;
+  border-color: #000;
+}
+
+.divRecentEvents {
+  background-color: #d2973b;
+  color:#000;
+  min-height: 300px;
+}
+
+.hrForBox2 {
+  border-width: 5px;
+  border-color: #fff;
+}
+
+.divMainFooter {
+  width:100%;
+  /*min-height: 150px;*/
+  background-color: transparent;
+  color: #fff;
+  font-family: 'Engravers MT';
+  font-style: normal;
+}
+
+.ulForFooter {
+  font-size: 18px;
+  list-style: none;
+  margin-left: -40px;
+}
+
+.ulForFooter > li {
+  font-style: normal;
+  font-weight: 100;
+}
+
+.footerIcons {
+}
+
+.footerIconsCont {
+  width: 100%;
+}
+
+.h1SchoolName {
+  font-size: 26px;
+}
+
+.h3SchoolSub {
+  font-size: 16px;
+}
+
+/*end home page*/
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+  .headSchoolName {
+    background-color: #0d1f2d;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /*.headSchoolName {
+    background-color: #0d1f2d;
+  }*/
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+}

@@ -1,0 +1,44 @@
+/*
+    FILENAME: site.css
+    AUTHOR: Eric Thomas D. Cabigting/ericcabigting@outlook.com
+    CREATED DATE: 2016-08-03
+    VERSION: v1.00
+*/
+/*====================================
+====reset css to my prefer defaulst===
+====================================*/
+* {
+  margin: 0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-size: 100%;
+  color:#fff;
+}
+
+a:link, a:active, a:visited { text-decoration: none; color:#000;}
+a:hover {color: #999; text-decoration: none; }
+
+h1 {}
+h1 a { }
+h1 a:hover {}
+
+h2 {}
+h2 a {}
+h2 a:hover {}
+
+h3 { vertical-align: middle;}
+h3 a {}
+h3 a:hover {}
+
+.dpsLeft { float:left; }
+.dpsRight { float:right; }
+.dpsClear { clear: both;}
+
+/*=====end reset to def=====*/
