@@ -21,8 +21,8 @@ class Pages extends CI_Controller {
       $this->load->view('templates/slideshow', $data);
 	    if($page == 'home') {
         //local
-        $localPath = 'C:\xampp\htdocs\dps_v3\dps_v3-abudhabi\public_html';
-	    	$data['imgDirSlide'] = scandir( $localPath . '\img\slideshow');
+        // $localPath = 'C:\xampp\htdocs\dps_v3\dps_v3-abudhabi\public_html';
+	    	// $data['imgDirSlide'] = scandir( FCPATH . 'img/slideshow');
 
         //production
         // $data['imgDirSlide'] = scandir( FCPATH . 'img/slideshow');
