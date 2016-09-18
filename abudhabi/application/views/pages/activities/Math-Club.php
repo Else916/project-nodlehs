@@ -1,7 +1,7 @@
 <div class="col-sm-9 col-md-9 prima-Div">
 
 <h3 class="title"><span>Mathmagicians' Club  2014 - 2105 Winners</span></h3>
-				<table class="ta-left">
+				<table class="tableMe">
 								<thead>
 									<tr>
 										<th><center>Grade 6 F1</center></th>
@@ -81,7 +81,7 @@
 							</table>
 
 
-							<table class="ta-left">
+							<table class="tableMe">
 								<thead>
 									<tr>
 										<th><center>Grade 7 F1</center></th>

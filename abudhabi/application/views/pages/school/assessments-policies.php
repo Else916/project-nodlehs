@@ -24,7 +24,7 @@
 <BR>
 <h4>Marks Breakdown </h4>
 <h5>KG1 and KG2</h5>
-<table class="aptable">
+<table class="tableMe">
   <tr>
     <td>Continuous Class Assessment (100%)
       <br>
@@ -51,7 +51,7 @@
 </table>
 <BR>
 <h5>Grades 1 – 5</h5>
-<table>
+<table class="tableMe">
   <tr>
     <td>Continuous Class Assessment (100%)
       <br>
@@ -79,7 +79,7 @@
 </table>
 <BR>
 <h5>Grades 6 – 12</h5>
-<table>
+<table class="tableMe">
   <tr>
     <td>Continuous Class Assessment (FORMATIVE) (50%)
       <br>

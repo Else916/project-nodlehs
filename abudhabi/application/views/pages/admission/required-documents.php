@@ -1,6 +1,6 @@
 
 	<h3>Admission Requirements</h3>
-			<ul class="marked-list">
+			<ul class="marked-list blackme">
 				<li>1 PASSPORT COPY (A4 size, colored copy of the parents' (Mom and Dad) and student's passport and visa)</li>
 				<li>1 BIRTH CERTIFICATE COPY ( A4 size, colored; if from abroad, attested from Embassy and Ministry of Foreign Affair. )</li>
 				<li>1 IMMUNISATION COPY ( A4 size, colored )</li>
@@ -16,7 +16,7 @@
 <br><br>
 			<h4>Please note that books and uniforms are not included in the fees.</h4>
 
-			<ul class="marked-list">
+			<ul class="marked-list blackme">
 				<li>The fees must be paid in <b><u>THREE INSTALLMENTS</u></b>.</li>
 				<li>First payment is due when renewing registration or on September.</li>
 				<li>Second payment is due on December.</li>

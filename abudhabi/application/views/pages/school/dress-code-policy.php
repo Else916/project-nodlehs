@@ -2,7 +2,7 @@
 
 							<p>All students must wear the <strong>DPS</strong> uniform in school and for the school related events, unless informed otherwise. Students can choose between last year’s models () and this year’s models ().</p>
 
-							<table>
+							<table class="tableMe">
 								<thead>
 									<tr>
 										<th colspan="2">KG Section</th>
@@ -44,7 +44,7 @@
 								</tbody>
 							</table>
 
-							<table>
+							<table class="tableMe">
 								<thead>
 									<tr>
 										<th colspan="2">Elementary Section</th>
@@ -90,7 +90,7 @@
 								</tbody>
 							</table>
 
-							<table>
+							<table class="tableMe">
 								<thead>
 									<tr>
 										<th colspan="2">Secondary Section</th>
@@ -140,7 +140,7 @@
 								<li>Jewelry - Only stud earnings for girls - no necklaces, bracelets, piercings, nail polish, etc.</li>
 							</ul>
 
-							<table>
+							<table class="tableMe">
 								<thead>
 									<tr>
 										<th colspan="2">Prices</th>

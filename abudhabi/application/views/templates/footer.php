@@ -18,44 +18,46 @@
         </ul>
         <!-- END Marked List -->
       </div>
+
       <div class="col-md-4">
-        <h3>Our Gallery</h3>
+        <h3>Follow Us</h3>
+        <ul class="inline-list">
+          <li><a href="https://www.linkedin.com/company/al-dhafra-private-school" class="icon icon-md icon-secondary-2 fa-linkedin"></a></li>
+          <li><a href="https://twitter.com/dpsabudhabi" class="icon icon-md icon-secondary-2 fa-twitter"></a></li>
+          <li><a href="https://www.facebook.com/Al-Dhafra-Private-School-Abu-Dhabi-216597418506681/" class="icon icon-md icon-secondary-2 fa-facebook"></a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h3>Our Gallery<?php //echo anchor('gallery/', 'view all',array('class' => 'hoverWhiteMe')) ?></h3>
+
         <!-- Owl Carousel -->
         <div class="owl-carousel">
             <div class="item">
               <!-- Touch Touch -->
-              <a class="thumb" href="images/page-01_img04_original.jpg">
-                <img src="<?php echo $public_folder;?>images/page-01_img04.jpg" alt=""/>
+              <a class="thumb" href="<?php echo $public_folder;?>images/gallery/img01.jpg">
+                <img src="<?php echo $public_folder;?>images/gallery/thumbs/img01-thumb.jpg" alt=""/>
                 <span class="thumb_overlay"></span>
               </a>
               <!-- END Touch Touch -->
             </div>
             <div class="item">
               <!-- Touch Touch -->
-              <a class="thumb" href="images/page-01_img05_original.jpg">
-                <img src="<?php echo $public_folder;?>images/page-01_img05.jpg" alt=""/>
+              <a class="thumb" href="<?php echo $public_folder;?>images/gallery/img02.jpg">
+                <img src="<?php echo $public_folder;?>images/gallery/thumbs/img02-thumb.jpg" alt=""/>
                 <span class="thumb_overlay"></span>
               </a>
               <!-- END Touch Touch -->
             </div>
             <div class="item">
               <!-- Touch Touch -->
-              <a class="thumb" href="images/page-01_img06_original.jpg">
-                <img src="<?php echo $public_folder;?>images/page-01_img06.jpg" alt=""/>
+              <a class="thumb" href="<?php echo $public_folder;?>images/gallery/img03.jpg">
+                <img src="<?php echo $public_folder;?>images/gallery/thumbs/img03-thumb.jpg" alt=""/>
                 <span class="thumb_overlay"></span>
               </a>
               <!-- END Touch Touch -->
             </div>
         </div>
         <!-- END Owl Carousel -->
-      </div>
-      <div class="col-md-4">
-        <h3>Follow Us</h3>
-        <ul class="inline-list">
-          <li><a href="#" class="icon icon-md icon-secondary-2 fa-twitter"></a></li>
-          <li><a href="#" class="icon icon-md icon-secondary-2 fa-google-plus"></a></li>
-          <li><a href="#" class="icon icon-md icon-secondary-2 fa-facebook"></a></li>
-        </ul>
       </div>
     </div>
   </div>

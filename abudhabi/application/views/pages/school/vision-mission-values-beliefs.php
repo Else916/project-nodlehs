@@ -1,4 +1,4 @@
-                    <div class="col-sm-9 col-md-9 prima-Div">
+
 							<h3 class="title"><span>School's Vision, Mission, Values and Beliefs</span></h3>
 
 							<p>The following Vision, Mission, Values and Beliefs summarize our stakeholders’ expectations and feedback for an effective school (from 6/2011–1/ 2012):</p>
@@ -23,9 +23,5 @@
 								<li><b>Personal Development</b> – All students are guided to become morally, socially and environmentally responsible, global citizens, as well as independent free-thinkers across the curriculum.</li>
 								<li><b>Safety</b> – All students have the right to an intellectually, emotionally, morally, and physically safe and secure learning environment across the curriculum.</li>
 							</ul>
-                    </div>
-
-
-
-
-                
+    </div>
+  </section>

@@ -1,6 +1,6 @@
 <div class="col-sm-9 col-md-9 prima-Div">
 <h3 class="title"><span>Students Handwriting Competition</span></h3>
-	<table class="ta-left">
+	<table class="tableMe">
 		<thead>
 			<tr>
 				<th colspan="2" class="ta-center">Grade 1 A</th>
@@ -34,7 +34,7 @@
 		</tbody>
 	</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 1 B</th>
@@ -68,7 +68,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 1 C</th>
@@ -102,7 +102,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 1 D</th>
@@ -136,7 +136,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 1 E</th>
@@ -170,7 +170,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 2 A</th>
@@ -204,7 +204,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 2 B</th>
@@ -238,7 +238,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 2 C</th>
@@ -272,7 +272,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 2 D</th>
@@ -306,7 +306,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 2 E</th>
@@ -340,7 +340,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 3 A</th>
@@ -382,7 +382,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 3 B</th>
@@ -415,7 +415,7 @@
 											</tr>
 										</tbody>
 									</table>
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 3 C</th>
@@ -453,7 +453,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 3 D</th>
@@ -487,7 +487,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 3 E</th>
@@ -521,7 +521,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 4 A</th>
@@ -555,7 +555,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 4 B</th>
@@ -589,7 +589,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 4 C</th>
@@ -623,7 +623,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 4 D</th>
@@ -657,7 +657,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 4 E</th>
@@ -691,7 +691,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 5 F1</th>
@@ -725,7 +725,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 5 F2</th>
@@ -759,7 +759,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 5 M1</th>
@@ -793,7 +793,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 5 M2</th>

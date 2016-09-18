@@ -1,6 +1,7 @@
 
 <h3>School's Objectives</h3>
-							<ol>
+<br><br>
+							<ol style="line-height:30px;">
 								<li>To implement Al Dhafra Private School Vision, Mission, Values and Beliefs which will drive school operations amongst all stakeholders.</li>
 								<li>To build leadership capacity throughout the school to drive the teaching and learning process.</li>
 								<li>To provide a comprehensive, rigorous curriculum with a culture of high expectations amongst all stakeholders.</li>

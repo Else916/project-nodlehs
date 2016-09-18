@@ -35,10 +35,14 @@
 
           <div class="col-sm-6 col-md-3">
             <div class="box-skin-1">
-              <div class="icon icon-xl icon-secondary-1 fa-info"></div>
-              <h4>School Handbook</h4>
-              <p>The school handbook contains all school information and daily routines that are useful for both parents and students. Download the PDF copy from the link below.</p>
-              <a href="#" class="btn btn-default btn-md">Download</a>
+              <div class="icon icon-xl icon-secondary-1 fa-mobile-phone"></div>
+              <h4>D6 Communicator</h4>
+              <p>
+              The School Communicator is an app that will pop up on your computer and mobile every day to keep
+              you up to date with all the News within the school. Download instructrions below.
+              </p>
+              <?php echo anchor('download/Dear_Parents_D6_Eng.pdf', 'DOWNLOAD', array('class' => 'btn btn-default btn-md' )) ?>
+              <!-- <a href="" class="btn btn-default btn-md">Download</a> -->
             </div>
           </div>
 

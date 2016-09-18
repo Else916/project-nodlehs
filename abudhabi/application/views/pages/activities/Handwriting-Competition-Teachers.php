@@ -1,6 +1,6 @@
 <div class="col-sm-9 col-md-9 prima-Div">
 							<h3 class="title"><span>Teachers Handwriting Competition</span></h3>
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 1</th>
@@ -26,7 +26,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 2</th>
@@ -52,7 +52,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 3</th>
@@ -77,7 +77,7 @@
 											</tr>
 										</tbody>
 									</table>
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 4</th>
@@ -103,7 +103,7 @@
 										</tbody>
 									</table>
 
-									<table class="ta-left">
+									<table class="tableMe">
 										<thead>
 											<tr>
 												<th colspan="2" class="ta-center">Grade 5</th>

@@ -19,53 +19,22 @@ class Pages extends CI_Controller {
       // $data['public_folder'] = base_url();
 	    $this->load->view('templates/header', $data);
       $this->load->view('templates/slideshow', $data);
-	    if($page == 'home') {
-        //local
-        // $localPath = 'C:\xampp\htdocs\dps_v3\dps_v3-abudhabi\public_html';
-	    	// $data['imgDirSlide'] = scandir( FCPATH . 'img/slideshow');
-
-        //production
-        // $data['imgDirSlide'] = scandir( FCPATH . 'img/slideshow');
-
-
-	    	$this->load->view('pages/'.$page, $data);
-
-	    }
-	    else {
-	  	//   	switch ($i) {
-			//     case "apple":
-			//         echo "i is apple";
-			//         break;
-			//     case "bar":
-			//         echo "i is bar";
-			//         break;
-			//     case "cake":
-			//         echo "i is cake";
-			//         break;
-			// }
-			switch ($title) {
-        case 'national_day_2015':
-				case 'national_day_2014':
-				case 'graduation_2014':
-				case 'elementary_sports_day_2014':
-				case 'kg_sports_day_2014':
-				case 'kg_graduation_2015':
-        case 'eid_al_adha_al_mubarak_2015':
-					$data['galleryImgDir'] = scandir(FCPATH . 'img/gallery/' . $title . '/thumbnail');
-	    			$data['curPage'] = $title;
-					break;
-				default:
-					# code...
-					break;
-			}
-	    	// if($title == 'national_day_2014' || $title == 'graduation_2014')
-	    	// {
-	    	// 	$data['galleryImgDir'] = scandir(FCPATH . 'img/gallery/' . $title . '/thumbnail');
-	    	// 	$data['curPage'] = $title;
-	    	// }
-	    	$this->load->view('pages/'.$page, $data);
-
-	    }
+	    // if($page == 'home') {
+      //   //local
+      //   // $localPath = 'C:\xampp\htdocs\dps_v3\dps_v3-abudhabi\public_html';
+	    // 	// $data['imgDirSlide'] = scandir( FCPATH . 'img/slideshow');
+      //
+      //   //production
+      //   // $data['imgDirSlide'] = scandir( FCPATH . 'img/slideshow');
+      //
+      //
+	    // 	$this->load->view('pages/'.$page, $data);
+      //
+	    // }
+	    // else {
+      //
+	    // }
+      $this->load->view('pages/'.$page, $data);
       $this->load->view('templates/sidebar', $data);
 	    $this->load->view('templates/footer', $data);
 

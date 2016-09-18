@@ -271,7 +271,7 @@ var o = $('#camera');
                 margin: 30,
                 smartSpeed: 450,
                 loop: true,
-                dots: true,
+                dots: false,
                 dotsEach: 1,
                 nav: false,
                 navClass: ['owl-prev fa-arrow-circle-left', 'owl-next fa-arrow-circle-right'],

@@ -1,8 +1,8 @@
-<div class="col-sm-9 col-md-9 prima-Div">
+<div style="width:100%;text-align:center;"></div>
 							<h3 class="title"><span>School Schedule</span></h3>
-
+							<br>
 							<h5>ATTENDANCE:</h5>
-
+							<br>
 							<ul>
 								<li>Teachers: 7:30 AM - 3:00 PM</li>
 								<li>Students: 7:30 AM - 2:15 PM</li>
@@ -10,7 +10,7 @@
 
 							<h4>KG 1 and 2</h4>
 
-							<table class="ta-left">
+							<table  class="tableMe">
 								<thead>
 									<tr>
 										<th>PERIODS</th>
@@ -67,7 +67,7 @@
 
 							<h4>JUNIORS Grades 1 to 5</h4>
 
-							<table class="ta-left">
+							<table  class="tableMe">
 								<thead>
 									<tr>
 										<th>PERIODS</th>
@@ -116,7 +116,7 @@
 
 							<h4>SENIORS Grades 6 to 12</h4>
 
-							<table class="ta-left">
+							<table  class="tableMe">
 								<thead>
 									<tr>
 										<th>PERIODS</th>
@@ -165,3 +165,4 @@
 
 							<p>School year starts in September and ends in June.</p>
 </div>
+</section>

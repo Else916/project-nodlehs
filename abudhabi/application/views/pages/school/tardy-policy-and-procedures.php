@@ -1,4 +1,4 @@
-<div class="col-sm-9 col-md-9 prima-Div">
+
 <h3 class="title"><span>Tardy Policy and Procedures 2015 - 2016</span></h3>
 <br>
 <i>*Note: Arabic version of this document is available for download:<?php echo anchor('download/arabic-tardy-policy.docx', 'CLICK HERE') ?></i>
@@ -51,8 +51,9 @@
 	<li>	Any student may have his records cleared if they are on time for one consecutive month(4 weeks on a row).</li>
 	<li>	Bus students will be exempted from any actions. In the case of it being the student’s fault for missing the bus, he/she may receive a first verbal warning, depending on the case.</li>
 </ul>
-
+<br><br>
 
 <img class="img-responsive" src="http://abu-dhabi.dhafraschools.com/img/misc/tardychart.jpg"/>
 
 </div>
+</section>

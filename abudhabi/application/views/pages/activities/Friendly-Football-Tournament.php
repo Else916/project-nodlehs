@@ -3,7 +3,7 @@
 
 								<p>Congratulations to all the players, teachers and participants as the tournament exemplified good sportsmanship, fair play and friendly competition. Teams were drawn into the following groups and the results are as follows:</p>
 											
-								<table class="ta-left">
+								<table class="tableMe">
 								<thead>
 									<tr>
 										<th><center>Group A</center></th>

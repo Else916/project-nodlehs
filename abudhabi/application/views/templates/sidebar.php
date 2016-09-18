@@ -22,13 +22,11 @@
                   <li><?php echo anchor('sen/policy-and-procedures', 'Special Education Needs') ?></li>
                   <li><?php echo anchor('school/schedule', 'School Hours') ?></li>
                   <li><?php echo anchor('download/SchoolCalendar2016-2017.jpg', 'School Calendar 2016 - 2017') ?></li>
-                  <li><?php echo anchor('contact-us', 'Location Map') ?></li>
-                  <li><?php echo anchor('careers', 'Careers') ?></li>
                 </ul>
             </div>
 
           <div class="col-md-4">
-            <h3>Accreditation Report</h3>
+            <h3 class="skin-1">Accreditation Report</h3>
             <!-- List -->
             <ul class="list">
                 <li><?php echo anchor('files/AlDhafra2014-Arabic.pdf', 'ADEC Inspection Report, Published in 2014 ARABIC', 'target="_blank"' ); ?></li>

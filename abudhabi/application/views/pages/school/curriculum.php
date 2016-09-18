@@ -3,7 +3,7 @@
 
 							<p>The curriculum is modeled on an integrated system (British/American) which is broad, balanced and rigorous. It includes:</p>
 
-							<table class="ta-left">
+							<table class="tableMe">
 								<thead>
 									<tr>
 										<th>KINDERGARTEN</th>

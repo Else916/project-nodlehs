@@ -1,7 +1,5 @@
-<div class="col-sm-9 col-md-9 prima-Div">
-
 							<h3 class="title"><span>Policy and Procedures</span></h3>
-							
+
 							<h4>Special Education Needs – Policy</h4>
 
 							<h4>Purpose</h4>
@@ -242,3 +240,4 @@
 								<li>We are continuously looking for speech therapists, psychologists and specialized teachers to meet a broader range of students’ learning needs.</li>
 							</ul>
 </div>
+</section>
