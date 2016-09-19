@@ -6,8 +6,7 @@
   <div class="container">
     <div class="row flow-offset-1">
 
-      <div id ="contactinfo" class="col-md-4">
-        <a id="contactus"></a>
+      <div class="contactinfo col-md-4">
         <h3>Contact Us</h3>
         <!-- Marked List -->
         <ul class="marked-list italic">
@@ -95,10 +94,9 @@
       },1000);
 
       $(".contactme").click(function() {
-        var looktocontact = $("contactsection").outerHeight(true);
         $('html, body').animate({
-            scrollTop: looktocontact
-        }, 2000);
+            scrollTop: $(".contactinfo").offset().top
+        }, 3000);
       });
     });
 </script>
