@@ -73,6 +73,7 @@
             </li>
             <li><a href='#'>School</a>
               <ul>
+                <li><a class="contactme" style="cursor: pointer;">Contact Us</a></li>
                 <li><?php echo anchor('school/assessments-policies', 'Assessments Policies') ?></li>
                 <li><?php echo anchor('school/child-protection-policy-en', 'Child Protection Policy') ?></li>
                 <li><?php echo anchor('school/code-of-conduct', 'Code of Conduct') ?></li>

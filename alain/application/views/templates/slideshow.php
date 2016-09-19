@@ -1,30 +1,71 @@
-<!-- slide show stats here -->
-    <div id="dps_carousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#dps_carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#dps_carousel" data-slide-to="1"></li>
-        <li data-target="#dps_carousel" data-slide-to="2"></li>
-        <li data-target="#dps_carousel" data-slide-to="3"></li>
-        <li data-target="#dps_carousel" data-slide-to="4"></li>
-      </ol>
-      <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <img src="<?php echo $public_folder;?>img/slideshow/58.jpg" alt="...">
-            </div>
-            <div class="item">
-              <img src="<?php echo $public_folder;?>img/slideshow/59.jpg" alt="...">
-            </div>
-            <div class="item">
-              <img src="<?php echo $public_folder;?>img/slideshow/60.jpg" alt="...">
-            </div>
-            <div class="item">
-              <img src="<?php echo $public_folder;?>img/slideshow/61.jpg" alt="...">
-            </div>
-            <div class="item">
-              <img src="<?php echo $public_folder;?>img/slideshow/62.jpg" alt="...">
-            </div>
-          </div>
+  <!-- Camera -->
+  <div class="camera_container">
+    <div class="onCamera">
+      <div class="container">
+        <!--h1>A BRITISH AND AMERICAN CURRICULUM SCHOOL</h1-->
+        <!-- <img src="<?php echo $public_folder;?>images/schoollogo_lg.png" style="margin-right:20px;" align="left" class="img-responsive"> -->
+      </div>
     </div>
-<!-- end of slide show -->
+    <div id="camera" class="camera_wrap">
+      <div data-src="<?php echo $public_folder;?>images/slideshow/1.jpg">
+        <div class="camera_caption fadeIn"></div>
+      </div>
+      <div data-src="<?php echo $public_folder;?>images/slideshow/2.jpg">
+        <div class="camera_caption fadeIn"></div>
+      </div>
+      <div data-src="<?php echo $public_folder;?>images/slideshow/3.jpg">
+        <div class="camera_caption fadeIn"></div>
+      </div>
+      <div data-src="<?php echo $public_folder;?>images/slideshow/4.jpg">
+        <div class="camera_caption fadeIn"></div>
+      </div>
+      <div data-src="<?php echo $public_folder;?>images/slideshow/5.jpg">
+        <div class="camera_caption fadeIn"></div>
+      </div>
+      <div data-src="<?php echo $public_folder;?>images/slideshow/6.jpg">
+        <div class="camera_caption fadeIn"></div>
+      </div>
+      <div data-src="<?php echo $public_folder;?>images/slideshow/7.jpg">
+        <div class="camera_caption fadeIn"></div>
+      </div>
+      <div data-src="<?php echo $public_folder;?>images/slideshow/8.jpg">
+        <div class="camera_caption fadeIn"></div>
+      </div>
+      <div data-src="<?php echo $public_folder;?>images/slideshow/9.jpg">
+        <div class="camera_caption fadeIn"></div>
+      </div>
+      <div data-src="<?php echo $public_folder;?>images/slideshow/10.jpg">
+        <div class="camera_caption fadeIn"></div>
+      </div>
+      <div data-src="<?php echo $public_folder;?>images/slideshow/11.jpg">
+        <div class="camera_caption fadeIn"></div>
+      </div>
+      <div data-src="<?php echo $public_folder;?>images/slideshow/12.jpg">
+        <div class="camera_caption fadeIn"></div>
+      </div>
+      <div data-src="<?php echo $public_folder;?>images/slideshow/13.jpg">
+        <div class="camera_caption fadeIn"></div>
+      </div>
+      <div data-src="<?php echo $public_folder;?>images/slideshow/14.jpg">
+        <div class="camera_caption fadeIn"></div>
+      </div>
+      <div data-src="<?php echo $public_folder;?>images/slideshow/15.jpg">
+        <div class="camera_caption fadeIn"></div>
+      </div>
+      <div data-src="<?php echo $public_folder;?>images/slideshow/16.jpg">
+        <div class="camera_caption fadeIn"></div>
+      </div>
+      <div data-src="<?php echo $public_folder;?>images/slideshow/17.jpg">
+        <div class="camera_caption fadeIn"></div>
+      </div>
+      <div data-src="<?php echo $public_folder;?>images/slideshow/18.jpg">
+       <div class="camera_caption fadeIn"></div>
+     </div>
+   </div>
+  </div>
+  <!-- END Camera -->
+  </header>
+
+  <main>
+    <section class="well-md">
+      <div class="container">

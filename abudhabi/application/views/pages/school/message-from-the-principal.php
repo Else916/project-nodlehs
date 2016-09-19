@@ -1,4 +1,4 @@
-		<h3>Message from the Principal</h3>
+		<h3 class="skin-1">Message from the Principal</h3>
 
 							<p>Dear Students and Parents,</p>
 

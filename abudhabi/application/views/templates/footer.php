@@ -2,11 +2,12 @@
                           FOOTER
 =========================================================-->
 
-<section class="well-sm bg-default-variant-1">
+<section id="contactsection" class="well-sm bg-default-variant-1">
   <div class="container">
     <div class="row flow-offset-1">
 
-      <div class="col-md-4">
+      <div id ="contactinfo" class="col-md-4">
+        <a id="contactus"></a>
         <h3>Contact Us</h3>
         <!-- Marked List -->
         <ul class="marked-list italic">
@@ -92,6 +93,13 @@
                     $("html, body").animate({ scrollTop: scrollAmount - 25}, 1500);
                   }
       },1000);
+
+      $(".contactme").click(function() {
+        var looktocontact = $("contactsection").outerHeight(true);
+        $('html, body').animate({
+            scrollTop: looktocontact
+        }, 2000);
+      });
     });
 </script>
 </body>
