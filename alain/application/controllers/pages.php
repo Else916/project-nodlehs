@@ -1,5 +1,5 @@
 <?php
-class Pages extends CI_Controller {
+class pages extends CI_Controller {
 
     public function view()
     {
@@ -13,44 +13,22 @@ class Pages extends CI_Controller {
     	$patharray = explode('/', $page);
     	$title = end($patharray);
 	    $data['title'] = ucfirst(str_replace('-', ' ',str_replace('_',' ',$title)));
-      //local
-      $data['public_folder'] = base_url() . 'public_html/';
-      //production
-      // $data['public_folder'] = base_url();
+	    $data['public_folder'] = base_url() . "";
 	    $this->load->view('templates/header', $data);
-      $this->load->view('templates/slideshow', $data);
+
 	    if($page == 'home') {
-        //local
-        $localPath = 'C:\xampp\htdocs\dps_v3\dps_v3-abudhabi\public_html';
-	    	//$data['imgDirSlide'] = scandir( $localPath . '\img\slideshow');
-
-        //production
-        // $data['imgDirSlide'] = scandir( FCPATH . 'img/slideshow');
-
-
+	    	$data['imgDirSlide'] = scandir( FCPATH . 'img/slideshow');
+	    	$this->load->view('templates/slideshow', $data);
 	    	$this->load->view('pages/'.$page, $data);
 
 	    }
 	    else {
-	  	//   	switch ($i) {
-			//     case "apple":
-			//         echo "i is apple";
-			//         break;
-			//     case "bar":
-			//         echo "i is bar";
-			//         break;
-			//     case "cake":
-			//         echo "i is cake";
-			//         break;
-			// }
 			switch ($title) {
-        case 'national_day_2015':
-				case 'national_day_2014':
-				case 'graduation_2014':
-				case 'elementary_sports_day_2014':
-				case 'kg_sports_day_2014':
-				case 'kg_graduation_2015':
-        case 'eid_al_adha_al_mubarak_2015':
+				case 'culture_day_2014':
+				case 'traffic_day_2014':
+				case 'students_activities_and_achievements_2014':
+				case 'math_exhibit_2014':
+				case 'library_pics_2015':
 					$data['galleryImgDir'] = scandir(FCPATH . 'img/gallery/' . $title . '/thumbnail');
 	    			$data['curPage'] = $title;
 					break;
@@ -58,15 +36,11 @@ class Pages extends CI_Controller {
 					# code...
 					break;
 			}
-	    	// if($title == 'national_day_2014' || $title == 'graduation_2014')
-	    	// {
-	    	// 	$data['galleryImgDir'] = scandir(FCPATH . 'img/gallery/' . $title . '/thumbnail');
-	    	// 	$data['curPage'] = $title;
-	    	// }
+        $this->load->view('templates/slideshow', $data);
 	    	$this->load->view('pages/'.$page, $data);
-
+	    	$this->load->view('templates/sidebar', $data);
 	    }
-      $this->load->view('templates/sidebar', $data);
+
 	    $this->load->view('templates/footer', $data);
 
     }

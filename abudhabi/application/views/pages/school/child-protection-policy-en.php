@@ -2,7 +2,7 @@
 		<span style="color:#801e0e;">Child Protection</span>
 	</h1>
 	<br>
-	<span style="float:right;">arabic version can be downloaded from <?php echo anchor('download/child-protection-policy-ar-2016-2017', 'here') ?>.</span>
+	<span style="float:right;">arabic version can be downloaded from <?php echo anchor('download/child-protection-policy-ar-2016-2017.pdf', 'here') ?>.</span>
 	<br>
 	<h2><b>PURPOSE</b></h2>
 			<p>The purpose of this policy is to ensure that all schools have student protection measures in place to:</p>
@@ -197,7 +197,7 @@
 						<br></br>
 						<h3><b>APPENDIX 5</b></h3>
 						<p>Process to report a suspected case of abuse and/or neglect in Abu Dhabi schools:</p>
-						<img src="<?php echo $public_folder;?>img/misc/child-policy-appendix5.jpg" class="img-responsive" >
+						<img src="<?php echo $public_folder;?>images/misc/child-policy-appendix5.jpg" class="img-responsive" >
 						<br>
 						<br>
 					</div>

@@ -49,7 +49,7 @@
                     }).append($('<span/>')))
                     .append($('<h2/>', {
                         'class': settings.titleClass
-                         ,'text': firstSplit[0]
+                         ,'text': ''
                     })));
         },
 

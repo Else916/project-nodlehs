@@ -14,6 +14,10 @@ include(folder_loc + 'js/jquery.cookie.js');
  ========================================================*/
 include(folder_loc + 'js/jquery.easing.1.3.js');
 
+/* Modal library
+ ========================================================*/
+include(folder_loc + 'js/jquery.modal.min.js');
+
 /* PointerEvents
  ========================================================*/
 ;

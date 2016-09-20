@@ -2153,3 +2153,15 @@ footer a:hover {
   border-bottom: 1px solid #e6e6e6;
   text-align: center;
 }
+
+/*=====================*/
+/*custom camera styles*/
+/*=====================*/
+.camera_caption {
+  top:35%;
+  left:5%;
+}
+
+header .camera_wrap .camera_caption h1,header .camera_wrap .camera_caption h2, header .camera_wrap .camera_caption h3, header .camera_wrap .camera_caption h4 {
+  color: #fff;
+}

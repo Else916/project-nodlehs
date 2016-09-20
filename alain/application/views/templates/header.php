@@ -24,6 +24,8 @@
   <link rel="stylesheet" href="<?php echo $public_folder;?>css/touchtouch.css">
   <link rel="stylesheet" href="<?php echo $public_folder;?>css/google-map.css">
   <link rel="stylesheet" href="<?php echo $public_folder;?>css/isotope.css">
+  <!-- <link rel="stylesheet" href="<?php echo $public_folder;?>css/jquery.modal.min.css"> -->
+  <!-- <link rel="stylesheet" href="<?php echo $public_folder;?>css/bootstrap.min.css"> -->
 
 
   <script src="<?php echo $public_folder;?>js/jquery.js"></script>
@@ -70,6 +72,8 @@
                 <li><?php echo anchor('school-profile/canteen-menu', 'Canteen Menu') ?></li>
                 <li><?php echo anchor('school-profile/uniform', 'Grade 12 Uniform Requirements') ?></li>
                 <li><?php echo anchor('school-profile/school-calendar', 'School Calendar') ?></li>
+                <li><?php echo anchor('school-profile/school-schedule', 'School Schedule') ?></li>
+                <li><?php echo anchor('school-profile/school-newsletter', 'School Newsletter') ?></li>
               </ul>
             </li>
             <li><a href='#'>Academics</a>
@@ -87,9 +91,9 @@
               </ul>
             </li>
             <li><?php echo anchor('login', 'School Management <br> System') ?></li>
-            
+
             <!--li><a href='index-4.html'>Gallery</a></li-->
-      
+
           </ul>
         </nav>
         <!-- END Menu -->

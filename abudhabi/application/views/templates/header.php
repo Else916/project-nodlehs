@@ -55,7 +55,7 @@
         <!-- Brand -->
         <div class="brand">
           <img  src="<?php echo $public_folder;?>images/schoollogo.png" alt="">
-          <a href="home" class="brand_name">AL DHAFRA PRIVATE SCHOOL</a>
+          <a href="<?php echo site_url();?>" class="brand_name">AL DHAFRA PRIVATE SCHOOL</a>
         </div>
         <!-- END Brand -->
 

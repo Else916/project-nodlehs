@@ -7,6 +7,9 @@
       </div>
     </div>
     <div id="camera" class="camera_wrap">
+    <div data-src="<?php echo $public_folder;?>images/slideshow/0.jpg">
+        <div class="camera_caption fadeIn"></div>
+      </div>
       <div data-src="<?php echo $public_folder;?>images/slideshow/1.jpg">
         <div class="camera_caption fadeIn"></div>
       </div>
@@ -19,9 +22,9 @@
       <div data-src="<?php echo $public_folder;?>images/slideshow/4.jpg">
         <div class="camera_caption fadeIn"></div>
       </div>
-      <div data-src="<?php echo $public_folder;?>images/slideshow/5.jpg">
+      <!-- div data-src="<?php echo $public_folder;?>images/slideshow/5.jpg">
         <div class="camera_caption fadeIn"></div>
-      </div>
+      </div -->
       <div data-src="<?php echo $public_folder;?>images/slideshow/6.jpg">
         <div class="camera_caption fadeIn"></div>
       </div>

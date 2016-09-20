@@ -6,19 +6,6 @@
   <div class="container">
     <div class="row flow-offset-1">
 
-      <div class="contactinfo col-md-4">
-        <h3>Contact Us</h3>
-        <!-- Marked List -->
-        <ul class="marked-list italic">
-          <li><b><u>Address:</b></u> P.O. Box 25801, ME09 Mohamed Bin Zayed City, Abu Dhabi, UAE</li>
-          <li><b><u>Phone:</b></u> 0097126108400 / 0097126108401</li>
-          <li><b><u>Fax:</b></u> 0097125599883</li>
-          <li><b><u>Email:</b></u> administration@dhafraschools.com</li>
-          <li><b><u>Website:</b></u> http://abu-dhabi.dhafraschools.com</li>
-        </ul>
-        <!-- END Marked List -->
-      </div>
-
       <div class="col-md-4">
         <h3>Follow Us</h3>
         <ul class="inline-list">
@@ -59,6 +46,19 @@
         </div>
         <!-- END Owl Carousel -->
       </div>
+
+        <div class="contactinfo col-md-4">
+          <h3>Contact Us</h3>
+          <!-- Marked List -->
+          <ul class="marked-list italic">
+            <li><b><u>Address:</b></u> P.O. Box 25801, ME09 Mohamed Bin Zayed City, Abu Dhabi, UAE</li>
+            <li><b><u>Phone:</b></u> 0097126108400 / 0097126108401</li>
+            <li><b><u>Fax:</b></u> 0097125599883</li>
+            <li><b><u>Email:</b></u> administration@dhafraschools.com</li>
+            <li><b><u>Website:</b></u> http://abu-dhabi.dhafraschools.com</li>
+          </ul>
+          <!-- END Marked List -->
+        </div>
     </div>
   </div>
 </section>

@@ -18,6 +18,8 @@
 
                   <li><?php echo anchor('admission/required-documents', 'Required Documents') ?></li>
                   <li><?php echo anchor('admission/tuition-fee', 'Tuition Fee') ?></li>
+                  <li><?php echo anchor('school-profile/school-schedule', 'School Schedule') ?></li>
+                  <li><?php echo anchor('school-profile/school-newsletter', 'School Newsletter') ?></li>
                   <li><?php echo anchor('https://www.nwea.org/', 'MAP Tests') ?></li>
                   <li><?php echo anchor('http://www.advanc-ed.org/', 'AdvancED') ?></li>
                   <li><?php echo anchor('http://www.cie.org.uk/', 'C.I.E.') ?></li>

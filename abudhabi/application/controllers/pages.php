@@ -11,12 +11,13 @@ class Pages extends CI_Controller {
     		$page = $this->uri->uri_string();
     	}
     	$patharray = explode('/', $page);
+      $data['pathmebeach'] = $page;
     	$title = end($patharray);
 	    $data['title'] = ucfirst(str_replace('-', ' ',str_replace('_',' ',$title)));
       //local
       $data['public_folder'] = base_url() . 'public_html/';
       //production
-      // $data['public_folder'] = base_url();
+      //$data['public_folder'] = base_url();
 	    $this->load->view('templates/header', $data);
       $this->load->view('templates/slideshow', $data);
 	    // if($page == 'home') {
