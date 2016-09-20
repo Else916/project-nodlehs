@@ -82,6 +82,8 @@
 </footer>
 </div>
 
+<div class="modal fade" id="dpsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+</div>
 <script src="<?php echo $public_folder;?>js/script.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
@@ -98,6 +100,15 @@
             scrollTop: $(".contactinfo").offset().top
         }, 3000);
       });
+
+      if (!sessionStorage["alertdisplayed"]){
+        $('#dpsModal').modal({
+                show: true
+        }).load(folder_loc + "popup/announcement.html").on("hidden.bs.modal", function() {
+  			}).appendTo("body").modal("show");
+
+        sessionStorage["alertdisplayed"] = true;
+      }
     });
 </script>
 </body>

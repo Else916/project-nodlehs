@@ -29,7 +29,7 @@
               <div class="icon icon-xl icon-secondary-1 fa-laptop"></div>
               <h4>School Management System</h4>
               <p>School management an online portal provided by the school for both students and teachers for better learning experience and communication.</p>
-              <a href="#" class="btn btn-default btn-md">Login</a>
+              <a href="<?php echo site_url();?>login" class="btn btn-default btn-md">Login</a>
             </div>
           </div>
 

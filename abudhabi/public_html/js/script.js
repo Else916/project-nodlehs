@@ -14,6 +14,10 @@ include(folder_loc + 'js/jquery.cookie.js');
  ========================================================*/
 include(folder_loc + 'js/jquery.easing.1.3.js');
 
+/* bootstrap library
+ ========================================================*/
+include(folder_loc + 'js/bootstrap.modal.js');
+
 /* PointerEvents
  ========================================================*/
 ;
@@ -26,6 +30,11 @@ include(folder_loc + 'js/jquery.easing.1.3.js');
         });
     }
 })(jQuery);
+
+/* jQuery Modal
+ ========================================================*/
+// include(folder_loc + 'js/jquery.modal.min.js');
+
 
 /* Stick up menus
  ========================================================*/

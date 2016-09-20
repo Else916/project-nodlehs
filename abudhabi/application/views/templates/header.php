@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="<?php echo $public_folder;?>css/touchtouch.css">
   <link rel="stylesheet" href="<?php echo $public_folder;?>css/google-map.css">
   <link rel="stylesheet" href="<?php echo $public_folder;?>css/isotope.css">
+  <link rel="stylesheet" href="<?php echo $public_folder;?>css/bootstrap.modal.css">
   <link rel="stylesheet" href="<?php echo $public_folder;?>css/style.css">
 
 
