@@ -23,7 +23,7 @@ if ( !jQuery.migrateMute && window.console && window.console.log ) {
 
 // Set to false to disable traces that appear with warnings
 if ( jQuery.migrateTrace === undefined ) {
-	jQuery.migrateTrace = false;
+	jQuery.migrateTrace = true;
 }
 
 // Forget any warnings we've already given; public

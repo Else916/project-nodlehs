@@ -9,7 +9,14 @@
   <div id="camera" class="camera_wrap">
     <div data-src="<?php echo $public_folder;?>images/slideshow/camera-1.jpg">
       <div class="camera_caption fadeIn">
-        <h1>British & American Curricula School</h1>
+          <img src="<?php echo $public_folder;?>images/schoollogo_lg.png"
+          style="width:150px;height:150px;margin-right:20px;"
+          alt=""
+          class="img-responsive"
+          align="left">
+          <h1>
+            American Curriculum School
+          </h1>
       </div>
     </div>
     <div data-src="<?php echo $public_folder;?>images/slideshow/camera-2.jpg">

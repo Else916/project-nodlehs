@@ -8,7 +8,7 @@
 
       <div class="col-md-4">
         <h3>Follow Us</h3>
-        <ul class="inline-list">
+        <ul class="inline-list" style="margin-top:19px;">
           <li><a href="https://www.linkedin.com/company/al-dhafra-private-school" class="icon icon-md icon-secondary-2 fa-linkedin"></a></li>
           <li><a href="https://twitter.com/dpsabudhabi" class="icon icon-md icon-secondary-2 fa-twitter"></a></li>
           <li><a href="https://www.facebook.com/Al-Dhafra-Private-School-Abu-Dhabi-216597418506681/" class="icon icon-md icon-secondary-2 fa-facebook"></a></li>
@@ -82,7 +82,7 @@
 </footer>
 </div>
 
-<div class="modal fade" id="dpsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal" id="dpsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 </div>
 <script src="<?php echo $public_folder;?>js/script.js"></script>
 <script type="text/javascript">
@@ -99,6 +99,7 @@
         $('html, body').animate({
             scrollTop: $(".contactinfo").offset().top
         }, 3000);
+        hideMobileMenu();
       });
 
       if (!sessionStorage["alertdisplayed"]){

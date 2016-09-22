@@ -14,9 +14,9 @@ include(folder_loc + 'js/jquery.cookie.js');
  ========================================================*/
 include(folder_loc + 'js/jquery.easing.1.3.js');
 
-/* Modal library
+/* bootstrap library
  ========================================================*/
-include(folder_loc + 'js/jquery.modal.min.js');
+include(folder_loc + 'js/bootstrap.modal.js');
 
 /* PointerEvents
  ========================================================*/
@@ -30,6 +30,7 @@ include(folder_loc + 'js/jquery.modal.min.js');
         });
     }
 })(jQuery);
+
 
 /* Stick up menus
  ========================================================*/
@@ -275,7 +276,7 @@ var o = $('#camera');
                 margin: 30,
                 smartSpeed: 450,
                 loop: true,
-                dots: true,
+                dots: false,
                 dotsEach: 1,
                 nav: false,
                 navClass: ['owl-prev fa-arrow-circle-left', 'owl-next fa-arrow-circle-right'],
@@ -323,3 +324,26 @@ var o = $('#camera');
         });
     }
 })(jQuery);
+
+
+// custom tabs
+// =========================================
+function openMsg(evt, msgName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("prinMsg");
+  for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(msgName).style.display = "block";
+  evt.currentTarget.className += " active";
+  if(evt.preventDefault){ //firefox,chrome
+        evt.preventDefault();
+  }
+  else { // ie
+      return false;
+  }
+}

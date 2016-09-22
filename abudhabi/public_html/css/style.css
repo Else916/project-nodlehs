@@ -31,7 +31,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
 
 h1, .heading-1 {
   font-family: "Open Sans", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 800;
   text-transform: uppercase;
   line-height: 1;
@@ -39,7 +39,7 @@ h1, .heading-1 {
 }
 @media (min-width: 480px) {
   h1, .heading-1 {
-    font-size: 40px;
+    font-size: 25px;
   }
 }
 @media (min-width: 768px) {
@@ -282,17 +282,17 @@ a[href^="mailto:"]:hover {
 /*
 * @subsection Floating
 */
-.pull-left {
+/*.pull-left {
   float: left;
-}
+}*/
 
 .pull-none {
   float: none;
 }
 
-.pull-right {
+/*.pull-right {
   float: right;
-}
+}*/
 
 @media (min-width: 480px) {
   .pull-xs-left {
@@ -2164,4 +2164,26 @@ footer a:hover {
 
 header .camera_wrap .camera_caption h1,header .camera_wrap .camera_caption h2, header .camera_wrap .camera_caption h3, header .camera_wrap .camera_caption h4 {
   color: #fff;
+}
+
+/*=====================*/
+/*custom tabbing*/
+/*=====================*/
+.tabsUL {
+  margin:15px 0px 0px 20px;
+}
+
+.tabsUL li {
+  display: inline;
+  margin-left:35px;
+  font-weight: bold;
+}
+
+.tabsUL > li > .active {
+  text-decoration: underline;
+  color:#f97e76;
+}
+
+.prinMsg {
+  margin-top: 30px;
 }

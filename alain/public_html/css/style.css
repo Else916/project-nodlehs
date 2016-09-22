@@ -39,17 +39,17 @@ h1, .heading-1 {
 }
 @media (min-width: 480px) {
   h1, .heading-1 {
-    font-size: 20px;
+    font-size: 40px;
   }
 }
 @media (min-width: 768px) {
   h1, .heading-1 {
-    font-size: 30px;
+    font-size: 50px;
   }
 }
 @media (min-width: 992px) {
   h1, .heading-1 {
-    font-size: 52px;
+    font-size: 72px;
   }
 }
 
@@ -282,17 +282,17 @@ a[href^="mailto:"]:hover {
 /*
 * @subsection Floating
 */
-.pull-left {
+/*.pull-left {
   float: left;
-}
+}*/
 
 .pull-none {
   float: none;
 }
 
-.pull-right {
+/*.pull-right {
   float: right;
-}
+}*/
 
 @media (min-width: 480px) {
   .pull-xs-left {
@@ -783,6 +783,10 @@ h2 + .blog-post {
   background: #55acee;
 }
 
+.fa-linkedin:hover {
+  background: #0177b5;
+}
+
 .fa-google-plus:hover {
   background: #DC4E41;
 }
@@ -1087,6 +1091,14 @@ h2 + .blog-post {
   letter-spacing: -0.02em;
   line-height: 1.5;
   color: #9eb2c0;
+}
+
+.blackme {
+  color:#000 !important;
+}
+
+.blackme > li:hover {
+  font-size:16px;
 }
 
 .marked-list li {
@@ -2060,7 +2072,7 @@ main .box-skin-1 .icon-xl + h4, main .box-skin-1 .image-wrap + h4, main .box-ski
 }
 main h3 {
   color: #fff;
-  background: #2e3641;
+  background: #c1cfd9;
   display: block;
   height: auto;
   padding: 14px 20px 19px;
@@ -2108,4 +2120,70 @@ footer [href^="./"]:hover {
 }
 footer a:hover {
   color: #2e3641;
+}
+
+/*
+.hoverWhiteMe {
+  text-decoration: underline;
+  float: right ;
+  font-size: 12px ;
+  margin-top: 10px ;
+}
+
+.hoverWhiteMe a:hover {
+  color: #fff !important;
+}*/
+
+.tableMe {
+  width:100%;
+  margin: 20px 0px 40px 0px;
+}
+
+.tableMe > thead {
+  background-color: #bfbfbf;
+}
+
+.tableMe > thead > tr > th {
+  padding:20px;
+  background-color: #e6e6e6;
+}
+
+.tableMe > tbody > tr > td {
+  padding: 5px;
+  border-bottom: 1px solid #e6e6e6;
+  text-align: center;
+}
+
+/*=====================*/
+/*custom camera styles*/
+/*=====================*/
+.camera_caption {
+  top:35%;
+  left:5%;
+}
+
+header .camera_wrap .camera_caption h1,header .camera_wrap .camera_caption h2, header .camera_wrap .camera_caption h3, header .camera_wrap .camera_caption h4 {
+  color: #fff;
+}
+
+/*=====================*/
+/*custom tabbing*/
+/*=====================*/
+.tabsUL {
+  margin:15px 0px 0px 20px;
+}
+
+.tabsUL li {
+  display: inline;
+  margin-left:35px;
+  font-weight: bold;
+}
+
+.tabsUL > li > .active {
+  text-decoration: underline;
+  color:#f97e76;
+}
+
+.prinMsg {
+  margin-top: 30px;
 }

@@ -35,7 +35,7 @@ if (defined('ENVIRONMENT'))
 		case 'development':
 			error_reporting(E_ALL);
 		break;
-	
+
 		case 'testing':
 		case 'production':
 			error_reporting(0);
@@ -56,7 +56,7 @@ if (defined('ENVIRONMENT'))
  * as this file.
  *
  */
-	$system_path = '/home/dhafrasc/system/abu-dhabi';
+	$system_path = '/home/dhafrasc/system/al-ain';
 
 /*
  *---------------------------------------------------------------
@@ -72,7 +72,7 @@ if (defined('ENVIRONMENT'))
  * NO TRAILING SLASH!
  *
  */
-	$application_folder = '/home/dhafrasc/application/abu-dhabi';
+	$application_folder = '/home/dhafrasc/application/al-ain';
 
 /*
  * --------------------------------------------------------------------

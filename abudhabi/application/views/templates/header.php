@@ -11,6 +11,7 @@
   <meta name="description" content="Al Dhafra Private Schools - Abu Dhabi, British and American accredited school">
   <meta name="keywords" content="Al Dhafra Private Schools, International School, Education, School, High School, Elementary, Kindergarten, United Arab Emirates, UAE, Abu Dhabi, AUH">
   <meta name="author" content="Eric Thomas D. Cabigting">
+  <meta http-equiv="pragma" content="no-cache" />
 
   <link href='<?php echo $public_folder;?>css/font-awesome.min.css' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>

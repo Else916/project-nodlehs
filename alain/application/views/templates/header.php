@@ -17,15 +17,14 @@
   <link href='https://fonts.googleapis.com/css?family=Asap:400italic,400,700italic,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="<?php echo $public_folder;?>css/grid.css">
-  <link rel="stylesheet" href="<?php echo $public_folder;?>css/style.css">
   <link rel="stylesheet" href="<?php echo $public_folder;?>css/camera.css">
   <link rel="stylesheet" href="<?php echo $public_folder;?>css/rd-mailform.css">
   <link rel="stylesheet" href="<?php echo $public_folder;?>css/owl-carousel.css">
   <link rel="stylesheet" href="<?php echo $public_folder;?>css/touchtouch.css">
   <link rel="stylesheet" href="<?php echo $public_folder;?>css/google-map.css">
   <link rel="stylesheet" href="<?php echo $public_folder;?>css/isotope.css">
-  <!-- <link rel="stylesheet" href="<?php echo $public_folder;?>css/jquery.modal.min.css"> -->
-  <!-- <link rel="stylesheet" href="<?php echo $public_folder;?>css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="<?php echo $public_folder;?>css/bootstrap.modal.css">
+  <link rel="stylesheet" href="<?php echo $public_folder;?>css/style.css">
 
 
   <script src="<?php echo $public_folder;?>js/jquery.js"></script>

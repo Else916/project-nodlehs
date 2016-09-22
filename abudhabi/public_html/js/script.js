@@ -328,3 +328,36 @@ var o = $('#camera');
         });
     }
 })(jQuery);
+
+
+// custom tabs
+// =========================================
+function openMsg(evt, msgName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("prinMsg");
+  for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(msgName).style.display = "block";
+  evt.currentTarget.className += " active";
+  if(evt.preventDefault){ //firefox,chrome
+        evt.preventDefault();
+  }
+  else { // ie
+      return false;
+  }
+}
+
+
+//custom hide menu on mobile
+//////////////////////////////
+function hideMobileMenu() {
+  if($('.rd-mobilemenu')){
+    $('.rd-mobilemenu').removeClass('active');
+    $('.rd-mobilepanel_toggle').removeClass('active');
+  }
+}
