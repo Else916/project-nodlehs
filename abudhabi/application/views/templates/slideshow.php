@@ -9,11 +9,11 @@
   <div id="camera" class="camera_wrap">
     <div data-src="<?php echo $public_folder;?>images/slideshow/camera-1.jpg">
       <div class="camera_caption fadeIn">
-          <img src="<?php echo $public_folder;?>images/schoollogo_lg.png"
+          <!-- <img src="<?php echo $public_folder;?>images/schoollogo_lg.png"
           style="width:150px;height:150px;margin-right:20px;"
           alt=""
           class="img-responsive"
-          align="left">
+          align="left"> -->
           <h1>
             American Curriculum School
           </h1>
