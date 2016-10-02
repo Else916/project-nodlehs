@@ -76,13 +76,13 @@
             <li><a href='#'>School</a>
               <ul>
                 <li><a class="contactme" style="cursor: pointer;">Contact Us</a></li>
-                <li><?php echo anchor('school/assessments-policies', 'Assessments Policies') ?></li>
+                <li><?php echo anchor('school/assessments-policies', 'Assessment') ?></li>
                 <li><?php echo anchor('school/child-protection-policy-en', 'Child Protection Policy') ?></li>
                 <li><?php echo anchor('school/code-of-conduct', 'Code of Conduct') ?></li>
                 <li><?php echo anchor('school/curriculum', 'Curriculum') ?></li>
                 <li><?php echo anchor('school/dress-code-policy', 'Dress Code Policy') ?></li>
 							  <li><?php echo anchor('school/message-from-the-principal', 'Message from the Principal') ?></li>
-                <li><?php echo anchor('school/objectives', 'Objectives') ?></li>
+                <!-- <li><?php echo anchor('school/objectives', 'Objectives') ?></li> -->
                 <li><?php echo anchor('school/tardy-policy-and-procedures', 'Tardy Policy and Procedures') ?></li>
                 <li><?php echo anchor('school/schedule', 'School Schedule') ?></li>
 							  <li><?php echo anchor('school/vision-mission-values-beliefs', 'Vision, Mission, Values & Beliefs') ?></li>

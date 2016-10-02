@@ -4,13 +4,16 @@
             <div class="col-md-4">
               <h3 class="skin-1">Senior Leadership Team</h3>
                 <ul class="list">
-    								<li>School Principal: <?php echo safe_mailto('principal@dhafraschools.com') ?></li>
-    								<li>Head of Secondary: <?php echo safe_mailto('david@dhafraschools.com ') ?></li>
-    								<li>Head of IT & Examinations: <?php echo safe_mailto('it@dhafraschools.com') ?></li>
-    								<li>SEN Coordinator: <?php echo safe_mailto('basma@dhafraschools.com') ?></li>
-    								<li>Head of Elementary: <?php echo safe_mailto('maggie@dhafraschools.com') ?></li>
-    								<li>Science Coordinator: <?php echo safe_mailto('tracy.may@dhafraschools.com') ?></li>
-    								<li>Student Guidance Councilor & Admin Supervisor: <?php echo safe_mailto('soha@dhafraschools.com') ?></li>
+                  <li>Principal:<br> <?php echo safe_mailto('principal@dhafraschools.com') ?></li>
+                  <li>Director of Stakeholder Affairs:<br>  <?php echo safe_mailto('principal.asst@dhafraschools.com') ?></li>
+                  <li>Vice Principal / Head of Secondary:<br>  <?php echo safe_mailto('david@dhafraschools.com') ?></li>
+                  <li>Head of Elementary:<br>  <?php echo safe_mailto('maggie@dhafraschools.com') ?></li>
+                  <li>Head of Kindergarten:<br>  <?php echo safe_mailto('gerri@dhafraschools.com') ?></li>
+                  <li>Head of Middle School:<br>  <?php echo safe_mailto('rita@dhafraschools.com') ?></li>
+                  <li>SENCO:<br>  <?php echo safe_mailto('basma@dhafraschools.com') ?></li>
+                  <li>Head of ICT and Examinations:<br>  <?php echo safe_mailto('it@dhafraschools.com') ?></li>
+                  <li>Head of Science:<br>  <?php echo safe_mailto(' tracy.may@dhafraschools.com') ?></li>
+                  <li>Student Guidance Counselor:<br>  <?php echo safe_mailto('soha@dhafraschools.com') ?></li>
     						</ul>
             </div>
             <div class="col-md-4">
@@ -18,7 +21,7 @@
                 <ul class="list">
                   <li><?php echo anchor('http://adsict.ethdigitalcampus.com/DCWeb/form/jsp_aaa/olAdmission_Bahrain.jsp?dbConnVar=ADS&portalFlag=adm', 'Online Admission') ?></li>
                   <li><?php echo anchor('admission/required-documents', 'Required Documents') ?></li>
-                  <li><?php echo anchor('admission/tuition-fee', 'Tuition Fee') ?></li>
+                  <li><?php echo anchor('admission/tuition-fee', 'Tuition Fees') ?></li>
                   <li><?php echo anchor('sen/policy-and-procedures', 'Special Education Needs') ?></li>
                   <li><?php echo anchor('school/schedule', 'School Hours') ?></li>
                   <li><?php echo anchor('download/SchoolCalendar2016-2017.jpg', 'School Calendar 2016 - 2017') ?></li>

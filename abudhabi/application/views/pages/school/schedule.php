@@ -7,8 +7,8 @@
 								<li>Teachers: 7:30 AM - 3:00 PM</li>
 								<li>Students: 7:30 AM - 2:15 PM</li>
 							</ul>
-
-							<h4>KG 1 and 2</h4>
+								<BR><BR>
+							<h4>Kindergarten 1 and 2</h4>
 
 							<table  class="tableMe">
 								<thead>
@@ -65,7 +65,7 @@
 								</tbody>
 							</table>
 
-							<h4>JUNIORS Grades 1 to 5</h4>
+							<h4>Elementary Grades 1 to 5</h4>
 
 							<table  class="tableMe">
 								<thead>
@@ -114,7 +114,7 @@
 								</tbody>
 							</table>
 
-							<h4>SENIORS Grades 6 to 12</h4>
+							<h4>Secondary Grades 6 to 12</h4>
 
 							<table  class="tableMe">
 								<thead>
