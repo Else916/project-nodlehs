@@ -24,11 +24,11 @@
         <h1></h1>
       </div>
     </div>
-    <div data-src="<?php echo $public_folder;?>images/slideshow/camera-3.jpg">
+    <!-- <div data-src="<?php echo $public_folder;?>images/slideshow/camera-3.jpg">
       <div class="camera_caption fadeIn">
         <h1></h1>
       </div>
-    </div>
+    </div> -->
     <div data-src="<?php echo $public_folder;?>images/slideshow/camera-4.jpg">
       <div class="camera_caption fadeIn">
         <h1></h1>

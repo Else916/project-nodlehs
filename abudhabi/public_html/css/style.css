@@ -2179,6 +2179,15 @@ header .camera_wrap .camera_caption h1,header .camera_wrap .camera_caption h2, h
   font-weight: bold;
 }
 
+.tabsUL a {
+  color:#f97e76;
+  font-size: 18px;
+}
+
+.tabsUL a:hover {
+  text-decoration: underline;
+}
+
 .tabsUL > li > .active {
   text-decoration: underline;
   color:#f97e76;
